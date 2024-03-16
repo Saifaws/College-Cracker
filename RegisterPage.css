@@ -1,0 +1,63 @@
+.register-page{
+  padding:5%;
+}
+
+.form > h3 {
+  text-align: center;
+  font-size: 30px;
+}
+.form {
+  width:400px;
+  background: white;
+  padding: 40px 40px;
+  margin:10px auto;
+  border-top:5px solid #45B6C9;
+  border-radius: 0.25rem;
+}
+
+.form-label {
+  color:#102A43;
+  letter-spacing: 0.5px;
+}
+
+.form-input{
+  width: 95%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 10px 10px;
+  background: #e2fbff;
+  border-radius: 8px;
+  border:1px solid rgb(254, 225, 225);
+}
+::placeholder {
+  font-family: inherit;
+  color: var(--grey-400);
+}
+
+.login-register-text{
+  margin-top:10px;
+  text-align: center;
+}
+
+.login-register-link{
+  margin-left:3px;
+  color:#45B6C9;
+  cursor: pointer;
+}
+
+.error-text{
+  text-align: center;
+  color: rgb(249, 154, 154);
+}
+
+.btn-register {
+  background: #45B6C9;
+  width:100%;
+  cursor: pointer;
+  border:transparent;
+  color: #fff;
+  font-size:15px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}

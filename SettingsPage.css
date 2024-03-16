@@ -1,0 +1,38 @@
+
+.homepage-content {
+  display: flex;
+  background:#F4FAFF;
+
+}
+
+.settings-page{
+  width: 100%;
+  margin: 2%;
+}
+
+.settings-page-form {
+  background: white;
+  padding: 55px;
+  border-radius:0.25rem; 
+}
+
+.btn-settings {
+  background: #45B6C9;
+  cursor: pointer;
+  border:transparent;
+  color: #fff;
+  font-size:16px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.form-input-settings{
+  width: 95%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 10px 10px;
+  background: #F4FAFF;
+  border-radius: 8px;
+  border:1px solid rgb(254, 225, 225);
+}

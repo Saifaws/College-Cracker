@@ -1,0 +1,75 @@
+.college {
+  background:white;
+  border-radius: 0.50rem;
+}
+
+header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+}
+
+.main-icon {
+  width:60px;
+  height:60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #45B6C9;
+  border-radius: 0.25rem;
+  color:white;
+  font-size: 2rem;
+  margin-right:12px;
+}
+
+.college-name h5 {
+  color:grey;
+  font-size:1.5rem;
+  margin-bottom:0.25rem;
+} 
+
+.content {
+  padding: 0.5rem 1.5rem;
+}
+
+.content-center {
+  display:grid;
+  grid-template-columns: 1fr;
+  row-gap: 0.5rem;
+}
+
+.college-info {
+  margin-top: 0.5rem;
+  display:flex;
+  align-items: center;
+}
+
+footer {
+  margin-top: 2rem;
+}
+.actions {
+  display: flex;
+}
+
+.edit-btn, .delete-btn {
+  cursor:pointer;
+  height:30px;
+  width: 100%;
+  border-radius: 0.25rem;
+  color:rgb(93, 93, 93);
+}
+
+.edit-btn {
+  background: rgb(177, 223, 164);
+  margin-right: 0.5rem;
+}
+
+.delete-btn {
+  background: rgb(242, 180, 165);
+  margin-right: 0.5rem;
+}
+
+.icon {
+  margin-right: 10px;
+}
